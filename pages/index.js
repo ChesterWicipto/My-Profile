@@ -42,8 +42,17 @@ export default function Home() {
             <h2 className="text-white">I am a fresh graduate</h2>
             <div className="d-grid gap-2 d-md-flex justify-content-md-start">
               <button type="button" className="btn btn-outline-warning button rounded-pill btn-lg px-4 me-md-2">
-                <Link href={"#contact"}>
-                  <a className="text-decoration-none text-white  fw-bold  ">Hire Me</a>
+                <Link href={"https://drive.google.com/file/d/1q21oZ-nu7ulqaQkKCowdrlFof7B2Z91C/view?usp=sharing"}>
+                  <a target={"_blank"} className="text-decoration-none text-white  fw-bold  ">
+                    Download My CV
+                  </a>
+                </Link>
+              </button>
+              <button type="button" className="btn btn-outline-warning button rounded-pill btn-lg px-4 me-md-2">
+                <Link href={"https://drive.google.com/file/d/1EEKHToVsN6RsdbC2d4zGcI52S0uKnGFs/view?usp=sharing://drive.google.com/file/d/1q21oZ-nu7ulqaQkKCowdrlFof7B2Z91C/view?usp=sharing"}>
+                  <a target={"_blank"} className="text-decoration-none text-white  fw-bold  ">
+                    Download My Resume
+                  </a>
                 </Link>
               </button>
             </div>
